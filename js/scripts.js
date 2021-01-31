@@ -6,13 +6,14 @@ let newArray = []
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
 
-    newArray.push(question1, question2, question3);
+    newArray.push(question1.toUpperCase(), question2.toUpperCase(), question3.toUpperCase());
 
   //  newArray.splice(1, 0, newArray)
 
-    console.log(newArray[0], newArray[1], newArray[2]);
+    console.log(newArray);
 
     // let responses = [question1, question2, question3]
 
     });
 });
+
